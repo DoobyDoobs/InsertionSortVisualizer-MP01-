@@ -98,7 +98,7 @@ namespace InsertionSortVisualizer_MP01_
                     Console.Write("Pass {0} : Thinking. . .                                               ", x);
                     #endregion
 
-                    Thread.Sleep(500);
+                    //Thread.Sleep(500);
 
                     if (arr[x] < arr[y])
                     {
@@ -172,7 +172,7 @@ namespace InsertionSortVisualizer_MP01_
                     Console.Write("Pass {0} : Swapping . . .                                             ", x);
                     #endregion
 
-                    Thread.Sleep(500);
+                    //Thread.Sleep(500);
 
                     #region Reset color
                     for (int a = 0; a < arr.Length; a++)
